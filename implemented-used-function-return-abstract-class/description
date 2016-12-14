@@ -1,0 +1,3 @@
+This issue illustrates what happens when we instantiate an abstract class that
+transitively uses a type in the parameter of a function but whose function is
+not necessary at the invocation site (C.scala).
